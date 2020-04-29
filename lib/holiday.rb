@@ -24,9 +24,8 @@ def add_supply_to_winter_holiday(holiday_hash, supply)
   # add the second argument, which is a supply, to either the
   # Christmas or the New Year's arrays
   
-  holiday_hash[:winter][:Christmas] << supply
-  holiday_hash[:winter][:Christmas] << supply
-  
+  holiday_hash[:winter][:new_years] << supply
+  holiday_hash[:winter][:christmas] << supply
 end
 
 def add_supply_to_memorial_day(holiday_hash, supply)
